@@ -1,0 +1,140 @@
+[PRE_PanelEntrenamiento]
+Class="Function"
+Prototype="int PRE_PanelEntrenamiento(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ENT_DetallePosiciones]
+Class="Function"
+Prototype="int ENT_DetallePosiciones();"
+
+[PRE_SeleccionEntrenamiento]
+Class="Function"
+Prototype="int PRE_SeleccionEntrenamiento(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_ControlesEntrenamiento]
+Class="Function"
+Prototype="int PRE_ControlesEntrenamiento(stEntrenar Modo);"
+
+[PRE_CondicionesIniciales]
+Class="Function"
+Prototype="int PRE_CondicionesIniciales();"
+
+[PRE_IniciarEntrenamiento]
+Class="Function"
+Prototype="int PRE_IniciarEntrenamiento();"
+
+[ENT_EntrenamientoPaso1]
+Class="Function"
+Prototype="int ENT_EntrenamientoPaso1();"
+
+[ENT_TipoSeleccionado]
+Class="Function"
+Prototype="stTipo ENT_TipoSeleccionado(char *pcCadena);"
+
+[ENT_ActualizaDetalle]
+Class="Function"
+Prototype="int ENT_ActualizaDetalle(int iRenglon, int iColumna);"
+
+[ENT_CargaDetalle]
+Class="Function"
+Prototype="int ENT_CargaDetalle(int iRenglon, int iColumna);"
+
+[ENT_CargarTipos]
+Class="Function"
+Prototype="int ENT_CargarTipos(int iRenglon, int iColumna);"
+
+[ENT_ActualizarListaConTabla]
+Class="Function"
+Prototype="int ENT_ActualizarListaConTabla();"
+
+[PRE_GuardarPosiciones]
+Class="Function"
+Prototype="int PRE_GuardarPosiciones(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_LeerPosiciones]
+Class="Function"
+Prototype="int PRE_LeerPosiciones(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ENT_ActualizarTabla]
+Class="Function"
+Prototype="int ENT_ActualizarTabla(int iE1, int iE2);"
+
+[ENT_InformacionTabla]
+Class="Function"
+Prototype="int ENT_InformacionTabla(stTabla accion);"
+
+[ENT_PintarPuntos]
+Class="Function"
+Prototype="int ENT_PintarPuntos(stPintaMarcas Tipo, ...);"
+
+[ENT_CapturarNuevoPunto]
+Class="Function"
+Prototype="int ENT_CapturarNuevoPunto();"
+
+[ENT_EntrenamientoPaso2]
+Class="Function"
+Prototype="int ENT_EntrenamientoPaso2();"
+
+[ENT_EntrenamientoPaso3]
+Class="Function"
+Prototype="int ENT_EntrenamientoPaso3();"
+
+[ENT_CicloConcluido]
+Class="Function"
+Prototype="int ENT_CicloConcluido();"
+
+[ENT_ContinuarRecorridoPrueba]
+Class="Function"
+Prototype="int ENT_ContinuarRecorridoPrueba();"
+
+[ENT_ColocaMensaje]
+Class="Function"
+Prototype="int ENT_ColocaMensaje(char *cMensaje);"
+
+[ENT_ActualizaEsperaBoton]
+Class="Function"
+Prototype="int ENT_ActualizaEsperaBoton();"
+
+[ENT_LeeEsperaBoton]
+Class="Function"
+Prototype="int ENT_LeeEsperaBoton();"
+
+[ENT_FuncionPasoAPaso]
+Class="Function"
+Prototype="int ENT_FuncionPasoAPaso();"
+
+[ENT_DetenerPruebaBotonera]
+Class="Function"
+Prototype="int ENT_DetenerPruebaBotonera();"
+
+[ENT_IniciarRecorridoPrueba]
+Class="Function"
+Prototype="int ENT_IniciarRecorridoPrueba();"
+
+[ENT_ModoMotorABB]
+Class="Function"
+Prototype="int ENT_ModoMotorABB(int iModo);"
+
+[ENT_PruebaRecorrido]
+Class="Function"
+Prototype="int ENT_PruebaRecorrido();"
+
+[EstablecePosicionActual]
+Class="Function"
+Prototype="int EstablecePosicionActual();"
+
+[SetPosicionActual]
+Class="Function"
+Prototype="int SetPosicionActual(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ImprimePosicion]
+Class="Function"
+Prototype="int ImprimePosicion();"
+
+[ActivaTimer]
+Class="Function"
+Prototype="int ActivaTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PosicionActual]
+Class="Function"
+Prototype="int PosicionActual(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

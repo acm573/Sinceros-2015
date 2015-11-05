@@ -1,0 +1,4 @@
+[BDS_LeerTransmisiones]
+Class="Function"
+Prototype="int BDS_LeerTransmisiones(int iPanel, int iControl);"
+

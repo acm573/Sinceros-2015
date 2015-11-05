@@ -1,0 +1,8 @@
+[ENT_CargarTransmisiones]
+Class="Function"
+Prototype="stEntrenar ENT_CargarTransmisiones(int iPanel, int iControl);"
+
+[ENT_CargarPosiciones]
+Class="Function"
+Prototype="stPosiciones ENT_CargarPosiciones(int iPanel, int iControl, int iCanvas);"
+

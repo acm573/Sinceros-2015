@@ -1,0 +1,8 @@
+[PRI_MensajeControl]
+Class="Function"
+Prototype="int PRI_MensajeControl(int iPanel, int iControl);"
+
+[PRE_BarraEstado]
+Class="Function"
+Prototype="int PRE_BarraEstado(char *pcCadena);"
+

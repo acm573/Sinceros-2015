@@ -1,0 +1,36 @@
+[DIG_Tiempo]
+Class="Function"
+Prototype="double DIG_Tiempo(int iBit);"
+
+[DIG_EstadoEntrada]
+Class="Function"
+Prototype="int DIG_EstadoEntrada(int iEntrada);"
+
+[DIG_Separar]
+Class="Function"
+Prototype="int DIG_Separar(unsigned int iValor);"
+
+[DIG_InicializaVectores]
+Class="Function"
+Prototype="int DIG_InicializaVectores();"
+
+[DIG_LeerPuertos]
+Class="Function"
+Prototype="int DIG_LeerPuertos(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DIG_CrearTarea]
+Class="Function"
+Prototype="int DIG_CrearTarea(int ipanel, int icontrol);"
+
+[DIG_Evento]
+Class="Function"
+Prototype="int DIG_Evento(stNumeroBit numeroBit, int (*funcionEvento)(stNumeroBit, stEstadoBit));"
+
+[DIG_Detener]
+Class="Function"
+Prototype="int DIG_Detener();"
+
+[DIG_Estado]
+Class="Function"
+Prototype="int DIG_Estado(int iBit);"
+

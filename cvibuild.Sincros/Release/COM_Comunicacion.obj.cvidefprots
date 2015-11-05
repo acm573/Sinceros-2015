@@ -1,0 +1,52 @@
+[COM_IniciaAplicacion]
+Class="Function"
+Prototype="int COM_IniciaAplicacion();"
+
+[COM_Estado]
+Class="Function"
+Prototype="stEstado COM_Estado();"
+
+[COM_FinalizaAplicacion]
+Class="Function"
+Prototype="int COM_FinalizaAplicacion();"
+
+[COM_IniciaClienteTCP]
+Class="Function"
+Prototype="int COM_IniciaClienteTCP();"
+
+[COM_ComandoUnico]
+Class="Function"
+Prototype="int COM_ComandoUnico(char *cMensaje);"
+
+[COM_EstructuraMensaje]
+Class="Function"
+Prototype="int COM_EstructuraMensaje(unsigned char ucComando, unsigned int uiDireccion, unsigned char ucControlador, int iValor);"
+
+[COM_EnviarComandos]
+Class="Function"
+Prototype="int COM_EnviarComandos(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[COM_Comandos]
+Class="Function"
+Prototype="int COM_Comandos();"
+
+[COM_DriverHabilitado]
+Class="Function"
+Prototype="int COM_DriverHabilitado();"
+
+[COM_ActualizaPanel]
+Class="Function"
+Prototype="int COM_ActualizaPanel(stRespuesta r);"
+
+[COM_Respuesta]
+Class="Function"
+Prototype="stRespuesta COM_Respuesta();"
+
+[COM_LecturaTCP]
+Class="Function"
+Prototype="int COM_LecturaTCP(unsigned int handle, int event, int error, void *callbackData);"
+
+[COM_InsertarComando]
+Class="Function"
+Prototype="int COM_InsertarComando(unsigned char ucComando, char *cMensaje);"
+

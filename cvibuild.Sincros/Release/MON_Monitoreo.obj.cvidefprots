@@ -1,0 +1,12 @@
+[MON_IniciaMonitoreo]
+Class="Function"
+Prototype="int MON_IniciaMonitoreo();"
+
+[MON_FinMonitoreo]
+Class="Function"
+Prototype="int MON_FinMonitoreo();"
+
+[Actualiza]
+Class="Function"
+Prototype="int Actualiza(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+

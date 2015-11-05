@@ -1,0 +1,24 @@
+[mov_Byte_to_Binary]
+Class="Function"
+Prototype="const char *mov_Byte_to_Binary(int x);"
+
+[mov_Inicializar]
+Class="Function"
+Prototype="int mov_Inicializar(stTarjeta mov_tarjeta);"
+
+[mov_VerificarPXI]
+Class="Function"
+Prototype="int mov_VerificarPXI(stTarjeta mov_tarjeta);"
+
+[mov_ConfiguraBitPuerto]
+Class="Function"
+Prototype="int mov_ConfiguraBitPuerto(int *puerto, int numeroBits, ...);"
+
+[mov_ConfiguraBitPuertoEscribe]
+Class="Function"
+Prototype="int mov_ConfiguraBitPuertoEscribe(stTarjeta mov_tarjeta, stPuerto mov_puerto, int *puerto, stNumeroBit mov_bit, stEstadoBit mov_estado);"
+
+[mov_EscribePuerto]
+Class="Function"
+Prototype="int mov_EscribePuerto(stTarjeta mov_tarjeta, stPuerto mov_puerto, int *puerto);"
+

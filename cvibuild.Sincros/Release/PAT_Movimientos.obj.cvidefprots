@@ -1,0 +1,44 @@
+[PAT_AsignaEstadoEjecucion]
+Class="Function"
+Prototype="int PAT_AsignaEstadoEjecucion(stEdoEjecucion Estado);"
+
+[PAT_Informacion]
+Class="Function"
+Prototype="stPosicion PAT_Informacion(char *c);"
+
+[PAT_CalculaVelocidad]
+Class="Function"
+Prototype="double PAT_CalculaVelocidad(stPosicion destino, double dTiempo);"
+
+[PAT_EjecutaMovimiento]
+Class="Function"
+Prototype="int PAT_EjecutaMovimiento(stPosicion destino);"
+
+[PAT_EjecucionPorPatron2]
+Class="Function"
+Prototype="int PAT_EjecucionPorPatron2(char *cPatron);"
+
+[PAT_Acercar]
+Class="Function"
+Prototype="int PAT_Acercar(char *cRuta);"
+
+[PAT_TipodeMovimiento]
+Class="Function"
+Prototype="stTipo PAT_TipodeMovimiento(stPosicion a, stPosicion b);"
+
+[PAT_MoviendoEje]
+Class="Function"
+Prototype="stTipo PAT_MoviendoEje(stPosicion a, stPosicion b);"
+
+[PAT_CargaMovimientoSecuencial]
+Class="Function"
+Prototype="int PAT_CargaMovimientoSecuencial(stPosicion destino, stTipo t);"
+
+[PAT_EjecucionPorSecuencia]
+Class="Function"
+Prototype="int PAT_EjecucionPorSecuencia(int iNumCiclos, char *cRuta);"
+
+[PAT_ConfigurarTiemposRecorrido]
+Class="Function"
+Prototype="int PAT_ConfigurarTiemposRecorrido(stTipoRecorrido Tipo, double dTiempo, int iNumCiclos, char *cRuta);"
+

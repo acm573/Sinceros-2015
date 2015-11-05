@@ -1,0 +1,37 @@
+#include "c:\program files\national instruments\cvi2013\sdk\include\winver.h"
+
+2 ICON "c:\\program files\\national instruments\\cvi2013\\bin\\default.ico"
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  "Tdms"
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "CIDESI\0"
+            VALUE "FileDescription", "Tdms (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "Tdms\0"
+            VALUE "LegalCopyright", "Copyright © CIDESI 2015\0"
+            VALUE "OriginalFilename", "Tdms.exe\0"
+            VALUE "ProductName", "CIDESI Tdms\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END

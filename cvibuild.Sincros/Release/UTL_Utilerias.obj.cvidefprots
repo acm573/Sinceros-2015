@@ -1,0 +1,8 @@
+[UTL_Split]
+Class="Function"
+Prototype="void *UTL_Split(char *pcCadena, char *pcPatron, char (*c)[30], int *total);"
+
+[UTIL_Wait]
+Class="Function"
+Prototype="int UTIL_Wait(double delay);"
+

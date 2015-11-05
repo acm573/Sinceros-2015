@@ -1,0 +1,97 @@
+CCFLAGS = -g ;
+TargetFileVersion = "1.0.0.0" ;
+TargetProdVersion = "1.0.0.0" ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2013\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\sdk\\include"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\Negocio\\BaseDeDatos"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\Negocio\\Entrenamiento"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\COM_Comunicacion"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\DIG_Digitales"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\MOV_Movimiento"
+	"c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\tdms"
+	;
+include Jamfile_instr ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\BDS_Lectura.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\Negocio\\BaseDeDatos\\BDS_Lectura.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\BDS_Lectura.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\CAN_DespliegaInformacion.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\GRA_Generales\\CAN_DespliegaInformacion.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\CAN_DespliegaInformacion.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\COM_Comunicacion.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\COM_Comunicacion\\COM_Comunicacion.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\COM_Comunicacion.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\DIG_Digitales.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\DIG_Digitales\\DIG_Digitales.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\DIG_Digitales.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\ENT_CargaInformacion.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\Negocio\\Entrenamiento\\ENT_CargaInformacion.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\ENT_CargaInformacion.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\ENT_Entrenamiento.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\Negocio\\Entrenamiento\\ENT_Entrenamiento.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\ENT_Entrenamiento.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\GRA_AjusteGrafico.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\GRA_Generales\\GRA_AjusteGrafico.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\GRA_AjusteGrafico.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\GRA_Generales.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\GRA_Generales\\GRA_Generales.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\GRA_Generales.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\MON_Monitoreo.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\MON_Monitoreo\\MON_Monitoreo.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\MON_Monitoreo.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\MOT_Motores.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\MOT_Motores\\MOT_Motores.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\MOT_Motores.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\mov_Movimiento.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\MOV_Movimiento\\mov_Movimiento.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\mov_Movimiento.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PAT_Movimientos.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PAT_Rutas\\PAT_Movimientos.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PAT_Movimientos.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PAT_PatronesMovimiento.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PAT_Rutas\\PAT_PatronesMovimiento.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PAT_PatronesMovimiento.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_AjustesControles.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_AjustesControles.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_AjustesControles.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosCatTransmisiones.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_EventosCatTransmisiones.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosCatTransmisiones.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosEntrenamiento.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_EventosEntrenamiento.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosEntrenamiento.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosMenuPrincipal.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_EventosMenuPrincipal.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosMenuPrincipal.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosPantallaPrincipal.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_EventosPantallaPrincipal.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_EventosPantallaPrincipal.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_Generales.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_Generales.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_Generales.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_Inicializar.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_Inicializar.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_Inicializar.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_MensajeControles.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_MensajeControles.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_MensajeControles.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_PantallaPrincipal.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_PantallaPrincipal.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_PantallaPrincipal.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_Principal.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_Principal.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\PRE_Principal.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\TDM_Archivos.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\tdms\\TDM_Archivos.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\TDM_Archivos.obj" ;
+Object "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\UTL_Utilerias.obj" : "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PAT_Rutas\\UTL_Utilerias.c" ;
+PrjObjects += "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\cvibuild.Sincros\\Debug\\UTL_Utilerias.obj" ;
+Object resources.res : resources.in.rc ;
+MainFromObjects "Sincros.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "Sincros.exe" : link_options.txt ;
+Depends "Sincros.exe" : resources.res ;
+Depends resources.res :  "c:\\Users\\CIDESI\\Desktop\\Sincros_2013\\PRE_Presentacion\\PRE_Principal.uir" ;
+Depends all : "Sincros.exe" ;

@@ -1,0 +1,60 @@
+[TDM_MensajeError]
+Class="Function"
+Prototype="const char *TDM_MensajeError();"
+
+[TDM_Error]
+Class="Function"
+Prototype="stEdoTDM TDM_Error(char *pcMensaje);"
+
+[TDM_LimpiaDatosAnteriores]
+Class="Function"
+Prototype="stEdoTDM TDM_LimpiaDatosAnteriores();"
+
+[TDM_ConsecutivoTDMS]
+Class="Function"
+Prototype="int TDM_ConsecutivoTDMS(char *pcArchivo);"
+
+[TDM_SiguienteTDMS]
+Class="Function"
+Prototype="stEdoTDM TDM_SiguienteTDMS();"
+
+[TDM_TipoDato]
+Class="Function"
+Prototype="TDMSDataType TDM_TipoDato(int iTipoDato);"
+
+[TDM_TipoDatoRev]
+Class="Function"
+Prototype="stTipoTDM TDM_TipoDatoRev(TDMSDataType iTipoDato);"
+
+[TDM_CrearNuevoArchivo]
+Class="Function"
+Prototype="stEdoTDM TDM_CrearNuevoArchivo();"
+
+[TDM_DatosArchivo]
+Class="Function"
+Prototype="stEdoTDM TDM_DatosArchivo(char *pcRuta, char *pcPrefijo, char *pcDescripcion, char *pcTitulo, char *pcAutor, char *pcNombre);"
+
+[TDM_Crear]
+Class="Function"
+Prototype="stEdoTDM TDM_Crear(int iNumeroCanales, ...);"
+
+[TDM_NombreArchivo]
+Class="Function"
+Prototype="stEdoTDM TDM_NombreArchivo(char *pcNombre);"
+
+[TDM_Insertar]
+Class="Function"
+Prototype="stEdoTDM TDM_Insertar(int iNumeroDatos, ...);"
+
+[TDM_Cerrar]
+Class="Function"
+Prototype="stEdoTDM TDM_Cerrar();"
+
+[TDM_Abrir]
+Class="Function"
+Prototype="stEdoTDM TDM_Abrir(char *pcArchivo, unsigned int *piDatos);"
+
+[TDM_Leer]
+Class="Function"
+Prototype="stEdoTDM TDM_Leer(int iNumeroDatos, ...);"
+

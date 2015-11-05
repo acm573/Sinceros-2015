@@ -1,0 +1,49 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\datasock"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\printing"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"c:\\program files\\national instruments\\cvi2013\\toolslib\\localui"
+	"c:\\program files\\national instruments\\cvi2013\\instr"
+	"C:\\Program Files\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"c:\\program files\\national instruments\\cvi2013\\include"
+	"C:\\Program Files\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files\\national instruments\\cvi2013\\include\\ansi"
+	"c:\\program files\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files\\IVI Foundation\\VISA\\winnt\\include"
+	"c:\\program files\\national instruments\\cvi2013\\sdk\\include"
+	"c:\\Program Files\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"c:\\Program Files\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "PRI_Principal.c" = "c:\\Acm\\tdms" ;
+LOCATE on "TDM_Archivos.c" = "c:\\Acm\\tdms" ;
+LOCATE on "TDM_Archivos.h" = "c:\\Acm\\tdms" ;
+Object "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj" : "c:\\Acm\\tdms\\PRI_Principal.c" ;
+FILENUM on "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj" = 1 ;
+DEFPROTS on "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj" = "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj.cvidefprots" ;
+OUTFILE on "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj" = "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj.out" ;
+PrjObjects += "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\PRI_Principal.obj" ;
+Object "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj" : "c:\\Acm\\tdms\\TDM_Archivos.c" ;
+FILENUM on "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj" = 2 ;
+DEFPROTS on "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj" = "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj.cvidefprots" ;
+OUTFILE on "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj" = "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj.out" ;
+PrjObjects += "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\TDM_Archivos.obj" ;
+Object "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\resources.res" : "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\resources.in.rc" ;
+MainFromObjects "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\Tdms.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\Tdms.exe" : "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\link_options.txt" ;
+Depends "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\Tdms.exe" : "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\resources.res" ;
+Depends all : "c:\\Acm\\tdms\\cvibuild.Tdms\\Debug\\Tdms.exe" ;

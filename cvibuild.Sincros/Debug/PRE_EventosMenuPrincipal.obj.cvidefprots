@@ -1,0 +1,4 @@
+[PRE_SeleccionMenu]
+Class="Function"
+Prototype="int PRE_SeleccionMenu(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

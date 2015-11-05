@@ -1,0 +1,16 @@
+[PRE_AnimacionMenu]
+Class="Function"
+Prototype="int PRE_AnimacionMenu(stMenuAcciones Accion);"
+
+[PRE_ConfiguraMenu]
+Class="Function"
+Prototype="int PRE_ConfiguraMenu();"
+
+[PRE_AjustarComponentes]
+Class="Function"
+Prototype="int PRE_AjustarComponentes(int iDato);"
+
+[PRE_InicializarInterfaz]
+Class="Function"
+Prototype="int PRE_InicializarInterfaz();"
+

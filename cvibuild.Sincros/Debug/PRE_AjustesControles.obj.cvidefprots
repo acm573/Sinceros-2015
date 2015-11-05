@@ -1,0 +1,8 @@
+[PRE_PanelVisible]
+Class="Function"
+Prototype="int PRE_PanelVisible(int iPanel);"
+
+[PRE_UbicarPanel]
+Class="Function"
+Prototype="int PRE_UbicarPanel(int iPanel);"
+

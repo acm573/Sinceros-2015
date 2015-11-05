@@ -1,0 +1,957 @@
+[Project Header]
+Version = 1302
+Pathname = "/c/Acm/Tremec-Sep-15/Sincros_2013/Sincros.prj"
+CVI Dir = "/c/program files/national instruments/cvi2013"
+CVI Shared Dir = "/C/Program Files/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2013"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files/IVI Foundation/VISA/winnt"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Files = 38
+Target Type = "Executable"
+Flags = 2064
+Copied From Locked InstrDrv Directory = False
+Copied from VXIPNP Directory = False
+Locked InstrDrv Name = ""
+Don't Display Deploy InstrDrv Dialog = False
+
+[Folders]
+Source Files Folder Not Added Yet = True
+Include Files Folder Not Added Yet = True
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Library Files Folder Not Added Yet = True
+Folder 0 = "PRE_Presentacion"
+FolderEx 0 = "PRE_Presentacion"
+Folder 1 = "Generales"
+FolderEx 1 = "Generales"
+Folder 2 = "Librerias"
+FolderEx 2 = "Librerias"
+Folder 3 = "Datos"
+FolderEx 3 = "Datos"
+Folder 4 = "ENT_Entrenamiento"
+FolderEx 4 = "ENT_Entrenamiento"
+Folder 5 = "TDMS"
+FolderEx 5 = "TDMS"
+
+[File 0001]
+File Type = "CSource"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_AjustesControles.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_AjustesControles.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0002]
+File Type = "CSource"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_EventosCatTransmisiones.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosCatTransmisiones.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0003]
+File Type = "CSource"
+Res Id = 3
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_EventosEntrenamiento.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosEntrenamiento.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0004]
+File Type = "CSource"
+Res Id = 4
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_EventosMenuPrincipal.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosMenuPrincipal.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0005]
+File Type = "CSource"
+Res Id = 5
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_EventosPantallaPrincipal.c"
+Path Line0001 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosPantallaPrincipal."
+Path Line0002 = "c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0006]
+File Type = "CSource"
+Res Id = 6
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_Generales.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Generales.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0007]
+File Type = "CSource"
+Res Id = 7
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_Inicializar.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Inicializar.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0008]
+File Type = "CSource"
+Res Id = 8
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_MensajeControles.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_MensajeControles.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0009]
+File Type = "CSource"
+Res Id = 9
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_PantallaPrincipal.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_PantallaPrincipal.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0010]
+File Type = "CSource"
+Res Id = 10
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_Principal.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Principal.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0011]
+File Type = "User Interface Resource"
+Res Id = 11
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_Principal.uir"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Principal.uir"
+Exclude = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0012]
+File Type = "Include"
+Res Id = 12
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_Tipos.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Tipos.h"
+Exclude = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0013]
+File Type = "Include"
+Res Id = 13
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PRE_Presentacion/PRE_Variables.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Variables.h"
+Exclude = False
+Project Flags = 0
+Folder = "PRE_Presentacion"
+Folder Id = 0
+
+[File 0014]
+File Type = "CSource"
+Res Id = 14
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "GRA_Generales/CAN_DespliegaInformacion.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/GRA_Generales/CAN_DespliegaInformacion.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0015]
+File Type = "CSource"
+Res Id = 15
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "COM_Comunicacion/COM_Comunicacion.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/COM_Comunicacion/COM_Comunicacion.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0016]
+File Type = "Include"
+Res Id = 16
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "COM_Comunicacion/COM_Comunicacion.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/COM_Comunicacion/COM_Comunicacion.h"
+Exclude = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0017]
+File Type = "CSource"
+Res Id = 17
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "DIG_Digitales/DIG_Digitales.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/DIG_Digitales/DIG_Digitales.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0018]
+File Type = "Include"
+Res Id = 18
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "DIG_Digitales/DIG_Digitales.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/DIG_Digitales/DIG_Digitales.h"
+Exclude = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0019]
+File Type = "CSource"
+Res Id = 19
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "GRA_Generales/GRA_AjusteGrafico.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/GRA_Generales/GRA_AjusteGrafico.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0020]
+File Type = "CSource"
+Res Id = 20
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "GRA_Generales/GRA_Generales.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/GRA_Generales/GRA_Generales.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0021]
+File Type = "CSource"
+Res Id = 21
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "MON_Monitoreo/MON_Monitoreo.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MON_Monitoreo/MON_Monitoreo.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0022]
+File Type = "CSource"
+Res Id = 22
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "MOT_Motores/MOT_Motores.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MOT_Motores/MOT_Motores.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0023]
+File Type = "CSource"
+Res Id = 23
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "MOV_Movimiento/mov_Movimiento.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MOV_Movimiento/mov_Movimiento.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0024]
+File Type = "Include"
+Res Id = 24
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "MOV_Movimiento/mov_Movimiento.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MOV_Movimiento/mov_Movimiento.h"
+Exclude = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0025]
+File Type = "CSource"
+Res Id = 25
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PAT_Rutas/PAT_Movimientos.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/PAT_Movimientos.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0026]
+File Type = "CSource"
+Res Id = 26
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PAT_Rutas/PAT_PatronesMovimiento.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/PAT_PatronesMovimiento.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0027]
+File Type = "CSource"
+Res Id = 27
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "PAT_Rutas/UTL_Utilerias.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/UTL_Utilerias.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Generales"
+Folder Id = 1
+
+[File 0028]
+File Type = "Function Panel"
+Res Id = 28
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel To Override = "CVI"
+Path Rel Path = "toolslib/toolbox/asynctmr.fp"
+Path = "/c/Program Files/National Instruments/CVI2013/toolslib/toolbox/asynctmr.fp"
+Exclude = False
+Project Flags = 0
+Folder = "Librerias"
+Folder Id = 2
+
+[File 0029]
+File Type = "Library"
+Res Id = 29
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path Line0001 = "../../../Program Files (x86)/National Instruments/NI-Motion/FlexMotion/lib/Micro"
+Path Rel Path Line0002 = "soft/FlexMS32.lib"
+Path Line0001 = "/c/Program Files (x86)/National Instruments/NI-Motion/FlexMotion/lib/Microsoft/F"
+Path Line0002 = "lexMS32.lib"
+Exclude = False
+Project Flags = 0
+Folder = "Librerias"
+Folder Id = 2
+
+[File 0030]
+File Type = "Function Panel"
+Res Id = 30
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel To Override = "CVI"
+Path Rel Path = "toolslib/toolbox/regexpr.fp"
+Path = "/c/Program Files/National Instruments/CVI2013/toolslib/toolbox/regexpr.fp"
+Exclude = False
+Project Flags = 0
+Folder = "Librerias"
+Folder Id = 2
+
+[File 0031]
+File Type = "Function Panel"
+Res Id = 31
+Path Is Rel = True
+Path Rel To = "CVI"
+Path Rel To Override = "CVI"
+Path Rel Path = "toolslib/toolbox/toolbox.fp"
+Path = "/c/Program Files/National Instruments/CVI2013/toolslib/toolbox/toolbox.fp"
+Exclude = False
+Project Flags = 0
+Folder = "Librerias"
+Folder Id = 2
+
+[File 0032]
+File Type = "Include"
+Res Id = 32
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Negocio/BaseDeDatos/BDS_BaseDeDatos.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/BaseDeDatos/BDS_BaseDeDatos.h"
+Exclude = False
+Project Flags = 0
+Folder = "Datos"
+Folder Id = 3
+
+[File 0033]
+File Type = "CSource"
+Res Id = 33
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Negocio/BaseDeDatos/BDS_Lectura.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/BaseDeDatos/BDS_Lectura.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Datos"
+Folder Id = 3
+
+[File 0034]
+File Type = "CSource"
+Res Id = 34
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Negocio/Entrenamiento/ENT_CargaInformacion.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento/ENT_CargaInformacion.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "ENT_Entrenamiento"
+Folder Id = 4
+
+[File 0035]
+File Type = "CSource"
+Res Id = 35
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Negocio/Entrenamiento/ENT_Entrenamiento.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento/ENT_Entrenamiento.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "ENT_Entrenamiento"
+Folder Id = 4
+
+[File 0036]
+File Type = "Include"
+Res Id = 36
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Negocio/Entrenamiento/ENT_Funciones.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento/ENT_Funciones.h"
+Exclude = False
+Project Flags = 0
+Folder = "ENT_Entrenamiento"
+Folder Id = 4
+
+[File 0037]
+File Type = "CSource"
+Res Id = 37
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "tdms/TDM_Archivos.c"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/tdms/TDM_Archivos.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "TDMS"
+Folder Id = 5
+
+[File 0038]
+File Type = "Include"
+Res Id = 38
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "tdms/TDM_Archivos.h"
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/tdms/TDM_Archivos.h"
+Exclude = False
+Project Flags = 0
+Folder = "TDMS"
+Folder Id = 5
+
+[Custom Build Configs]
+Num Custom Build Configs = 0
+
+[Default Build Config Debug]
+Config Name = "Debug"
+Is 64-Bit = False
+Is Release = False
+Default Calling Convention = "cdecl"
+Optimization Level = "No optimizations"
+Require Prototypes = True
+Show Warning IDs in Build Output = False
+Selected Warning Level = "None"
+Warning List None = "4,9,105,106,107"
+Warning List Common = ""
+Warning List Extended = ""
+Warning List All = ""
+Warning Mode = 0
+Enable Unreferenced Identifiers Warning = False
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Assignment In Conditional Warning = False
+Uninitialized Locals Compile Warning = "Aggressive"
+Require Return Values = True
+Enable C99 Extensions = True
+Enable OpenMP Extensions = False
+Stack Size = 250000
+Stack Reserve = 1048576
+Stack Commit = 4096
+Image Base Address = 4194304
+Image Base Address x64 = 4194304
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+Sign = False
+Sign Store = ""
+Sign Certificate = ""
+Sign Timestamp URL = ""
+Sign URL = ""
+Manifest Embed = False
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Custom Directory to Copy DLL Is Rel = False
+Custom Directory to Copy DLL = ""
+Generate Source Documentation = "None"
+Runtime Support = "Full Runtime Support"
+Runtime Binding = "Shared"
+Embed Project .UIRs = True
+Generate Map File = False
+Embed Timestamp = True
+Create Console Application = False
+Using LoadExternalModule = False
+DLL Exports = "Include File Symbols"
+Register ActiveX Server = False
+Numeric File Version = "1,0,0,0"
+Numeric Prod Version = "1,0,0,0"
+Comments = ""
+Comments Ex = ""
+Company Name = "CIDESI"
+Company Name Ex = "%company"
+File Description = "Sincros (Debug x86)"
+File Description Ex = "%application (%rel_dbg %arch)"
+File Version = "1.0"
+File Version Ex = "%f1.%f2"
+Internal Name = "Sincros"
+Internal Name Ex = "%basename"
+Legal Copyright = "Copyright © CIDESI 2015"
+Legal Copyright Ex = "Copyright © %company %Y"
+Legal Trademarks = ""
+Legal Trademarks Ex = ""
+Original Filename = "Sincros.exe"
+Original Filename Ex = "%filename"
+Private Build = ""
+Private Build Ex = ""
+Product Name = "CIDESI Sincros"
+Product Name Ex = "%company %application"
+Product Version = "1.0"
+Product Version Ex = "%p1.%p2"
+Special Build = ""
+Special Build Ex = ""
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+TLB Help Style = "HLP"
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+
+[Default Build Config Release]
+Config Name = "Release"
+Is 64-Bit = False
+Is Release = True
+Default Calling Convention = "cdecl"
+Optimization Level = "No optimizations"
+Require Prototypes = True
+Show Warning IDs in Build Output = False
+Selected Warning Level = "None"
+Warning List None = "4,9,105,106,107"
+Warning List Common = ""
+Warning List Extended = ""
+Warning List All = ""
+Warning Mode = 0
+Enable Unreferenced Identifiers Warning = False
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Assignment In Conditional Warning = False
+Uninitialized Locals Compile Warning = "Aggressive"
+Require Return Values = True
+Enable C99 Extensions = True
+Enable OpenMP Extensions = False
+Stack Size = 250000
+Stack Reserve = 1048576
+Stack Commit = 4096
+Image Base Address = 4194304
+Image Base Address x64 = 4194304
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+Sign = False
+Sign Store = ""
+Sign Certificate = ""
+Sign Timestamp URL = ""
+Sign URL = ""
+Manifest Embed = False
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Custom Directory to Copy DLL Is Rel = False
+Custom Directory to Copy DLL = ""
+Generate Source Documentation = "None"
+Runtime Support = "Full Runtime Support"
+Runtime Binding = "Shared"
+Embed Project .UIRs = True
+Generate Map File = False
+Embed Timestamp = True
+Create Console Application = False
+Using LoadExternalModule = False
+DLL Exports = "Include File Symbols"
+Register ActiveX Server = False
+Numeric File Version = "1,0,0,0"
+Numeric Prod Version = "1,0,0,0"
+Comments = ""
+Comments Ex = ""
+Company Name = "CIDESI"
+Company Name Ex = "%company"
+File Description = "Sincros (Release x86)"
+File Description Ex = "%application (%rel_dbg %arch)"
+File Version = "1.0"
+File Version Ex = "%f1.%f2"
+Internal Name = "Sincros"
+Internal Name Ex = "%basename"
+Legal Copyright = "Copyright © CIDESI 2015"
+Legal Copyright Ex = "Copyright © %company %Y"
+Legal Trademarks = ""
+Legal Trademarks Ex = ""
+Original Filename = "Sincros.exe"
+Original Filename Ex = "%filename"
+Private Build = ""
+Private Build Ex = ""
+Product Name = "CIDESI Sincros"
+Product Name Ex = "%company %application"
+Product Version = "1.0"
+Product Version Ex = "%p1.%p2"
+Special Build = ""
+Special Build Ex = ""
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+TLB Help Style = "HLP"
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+
+[Default Build Config Debug64]
+Config Name = "Debug64"
+Is 64-Bit = True
+Is Release = False
+Default Calling Convention = "cdecl"
+Optimization Level = "No optimizations"
+Require Prototypes = True
+Show Warning IDs in Build Output = False
+Selected Warning Level = "None"
+Warning List None = "4,9,105,106,107"
+Warning List Common = ""
+Warning List Extended = ""
+Warning List All = ""
+Warning Mode = 0
+Enable Unreferenced Identifiers Warning = False
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Assignment In Conditional Warning = False
+Uninitialized Locals Compile Warning = "Aggressive"
+Require Return Values = True
+Enable C99 Extensions = True
+Enable OpenMP Extensions = False
+Stack Size = 250000
+Stack Reserve = 1048576
+Stack Commit = 4096
+Image Base Address = 4194304
+Image Base Address x64 = 4194304
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+Sign = False
+Sign Store = ""
+Sign Certificate = ""
+Sign Timestamp URL = ""
+Sign URL = ""
+Manifest Embed = False
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Custom Directory to Copy DLL Is Rel = False
+Custom Directory to Copy DLL = ""
+Generate Source Documentation = "None"
+Runtime Support = "Full Runtime Support"
+Runtime Binding = "Shared"
+Embed Project .UIRs = False
+Generate Map File = False
+Embed Timestamp = True
+Create Console Application = False
+Using LoadExternalModule = False
+DLL Exports = "Include File Symbols"
+Register ActiveX Server = False
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+TLB Help Style = "HLP"
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+
+[Default Build Config Release64]
+Config Name = "Release64"
+Is 64-Bit = True
+Is Release = True
+Default Calling Convention = "cdecl"
+Optimization Level = "No optimizations"
+Require Prototypes = True
+Show Warning IDs in Build Output = False
+Selected Warning Level = "None"
+Warning List None = "4,9,105,106,107"
+Warning List Common = ""
+Warning List Extended = ""
+Warning List All = ""
+Warning Mode = 0
+Enable Unreferenced Identifiers Warning = False
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Assignment In Conditional Warning = False
+Uninitialized Locals Compile Warning = "Aggressive"
+Require Return Values = True
+Enable C99 Extensions = True
+Enable OpenMP Extensions = False
+Stack Size = 250000
+Stack Reserve = 1048576
+Stack Commit = 4096
+Image Base Address = 4194304
+Image Base Address x64 = 4194304
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+Sign = False
+Sign Store = ""
+Sign Certificate = ""
+Sign Timestamp URL = ""
+Sign URL = ""
+Manifest Embed = False
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Custom Directory to Copy DLL Is Rel = False
+Custom Directory to Copy DLL = ""
+Generate Source Documentation = "None"
+Runtime Support = "Full Runtime Support"
+Runtime Binding = "Shared"
+Embed Project .UIRs = False
+Generate Map File = False
+Embed Timestamp = True
+Create Console Application = False
+Using LoadExternalModule = False
+DLL Exports = "Include File Symbols"
+Register ActiveX Server = False
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+TLB Help Style = "HLP"
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Enable Unreferenced Identifiers Warning = False
+Enable Assignment In Conditional Warning = False
+O Option Compatible With 5.0 = False
+Enable C99 Extensions = True
+Uninitialized Locals Compile Warning = "Aggressive"
+Precompile Prefix Header = False
+Prefix Header File = ""
+
+[Run Options]
+Stack Size = 250000
+Stack Commit = 4096
+Image Base Address = 4194304
+Image Base Address x64 = 4194304
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Include Paths]
+Include Path 1 Is Rel = True
+Include Path 1 Rel To = "Project"
+Include Path 1 Rel Path = "Negocio/BaseDeDatos"
+Include Path 1 = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/BaseDeDatos"
+Include Path 2 Is Rel = True
+Include Path 2 Rel To = "Project"
+Include Path 2 Rel Path = "Negocio/Entrenamiento"
+Include Path 2 = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento"
+Include Path 3 Is Rel = True
+Include Path 3 Rel To = "Project"
+Include Path 3 Rel Path = "PRE_Presentacion"
+Include Path 3 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion"
+
+[Create Executable]
+Executable File_Debug Is Rel = True
+Executable File_Debug Rel To = "Project"
+Executable File_Debug Rel Path = "Sincros.exe"
+Executable File_Debug = "/c/Acm/Tremec-Sep-15/Sincros_2013/Sincros.exe"
+Executable File_Release Is Rel = True
+Executable File_Release Rel To = "Project"
+Executable File_Release Rel Path = "Sincros.exe"
+Executable File_Release = "/c/Acm/Tremec-Sep-15/Sincros_2013/Sincros.exe"
+Executable File_Debug64 Is Rel = True
+Executable File_Debug64 Rel To = "Project"
+Executable File_Debug64 Rel Path = "Sincros.exe"
+Executable File_Debug64 = "/c/Acm/Tremec-Sep-15/Sincros_2013/Sincros.exe"
+Executable File_Release64 Is Rel = True
+Executable File_Release64 Rel To = "Project"
+Executable File_Release64 Rel Path = "Sincros.exe"
+Executable File_Release64 = "/c/Acm/Tremec-Sep-15/Sincros_2013/Sincros.exe"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+Numeric File Version = "1,0,0,0"
+Numeric Prod Version = "1,0,0,0"
+Comments = ""
+Comments Ex = ""
+Company Name = "CIDESI"
+Company Name Ex = "%company"
+File Description = "Sincros (Release x86)"
+File Description Ex = "%application (%rel_dbg %arch)"
+File Version = "1.0"
+File Version Ex = "%f1.%f2"
+Internal Name = "Sincros"
+Internal Name Ex = "%basename"
+Legal Copyright = "Copyright © CIDESI 2015"
+Legal Copyright Ex = "Copyright © %company %Y"
+Legal Trademarks = ""
+Legal Trademarks Ex = ""
+Original Filename = "Sincros.exe"
+Original Filename Ex = "%filename"
+Private Build = ""
+Private Build Ex = ""
+Product Name = "CIDESI Sincros"
+Product Name Ex = "%company %application"
+Product Version = "1.0"
+Product Version Ex = "%p1.%p2"
+Special Build = ""
+Special Build Ex = ""
+DLL Exports = "Include File Symbols"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Custom Directory to Copy DLL Is Rel = False
+Custom Directory to Copy DLL = ""
+Generate Source Documentation = "None"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+TLB Help Style = "HLP"
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "Full Runtime Support"
+Instrument Driver Support Only = False
+Embed Project .UIRs = True
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[Signing Info]
+Sign = False
+Sign Debug Build = False
+Store = ""
+Certificate = ""
+Timestamp URL = ""
+URL = ""
+
+[Manifest Info]
+Embed = False
+
+[tpcSection]
+tpcEnabled = 0
+tpcOverrideEnvironment = 0
+tpcEnabled x64 = 0
+tpcOverrideEnvironment x64 = 0
+

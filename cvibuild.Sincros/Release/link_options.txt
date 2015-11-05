@@ -1,0 +1,68 @@
+-nologo
+-out:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\Sincros.exe
+-arch:x86
+-timestamp
+-res:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\resources.res
+-entry:_CVIWinMainStartupCode@0
+-base:0x400000
+-linked:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\linkersummary.txt
+-dlldeps:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\dlldependencies.txt
+-licensing:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\linkerlicensing.txt
+-browsedeps:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\BDS_Lectura.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\CAN_DespliegaInformacion.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\COM_Comunicacion.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\DIG_Digitales.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\ENT_CargaInformacion.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\ENT_Entrenamiento.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\GRA_AjusteGrafico.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\GRA_Generales.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\MON_Monitoreo.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\MOT_Motores.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\mov_Movimiento.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PAT_Movimientos.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PAT_PatronesMovimiento.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_AjustesControles.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_EventosCatTransmisiones.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_EventosEntrenamiento.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_EventosMenuPrincipal.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_EventosPantallaPrincipal.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_Generales.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_Inicializar.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_MensajeControles.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_PantallaPrincipal.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\PRE_Principal.obj
+-in:c:\Users\CIDESI\Desktop\Sincros_2013\cvibuild.Sincros\Release\UTL_Utilerias.obj
+-more:c:\program files (x86)\national instruments\cvi2013\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2013\bin\msvc\cvi.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\analysis.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\toolslib\toolbox\msvc\asynctmr.obj
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cviddc.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvitdms.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\FlexMotn.lib
+-more:c:\Program Files (x86)\National Instruments\NI-Motion\FlexMotion\lib\Microsoft\FlexMS32.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\gpib.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\ivi.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\NIDAQmx.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\omp.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\pid.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\toolslib\toolbox\msvc\regexpr.obj
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\SPT.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\toolslib\toolbox\msvc\toolbox.obj
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\user32.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\winmm.lib

@@ -1,0 +1,40 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[PRI_Salir]
+Class="Function"
+Prototype="int PRI_Salir(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_DatosArchivoTDMS]
+Class="Function"
+Prototype="int PRI_DatosArchivoTDMS(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_CrearTDMS]
+Class="Function"
+Prototype="int PRI_CrearTDMS(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_ArchivoTDMS]
+Class="Function"
+Prototype="int PRI_ArchivoTDMS(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_InsertaDatos]
+Class="Function"
+Prototype="int PRI_InsertaDatos(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_CierraTDMS]
+Class="Function"
+Prototype="int PRI_CierraTDMS(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_LimpiarGraficas]
+Class="Function"
+Prototype="int PRI_LimpiarGraficas();"
+
+[PRI_SeleccionArchivoTDMS]
+Class="Function"
+Prototype="int PRI_SeleccionArchivoTDMS(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRI_Desplazamiento]
+Class="Function"
+Prototype="int PRI_Desplazamiento(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

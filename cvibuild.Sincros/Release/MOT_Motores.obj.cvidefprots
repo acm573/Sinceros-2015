@@ -1,0 +1,32 @@
+[MOT_CondicionesIniciales]
+Class="Function"
+Prototype="int MOT_CondicionesIniciales();"
+
+[MOT_CondicionSalida]
+Class="Function"
+Prototype="int MOT_CondicionSalida();"
+
+[MOT_EstadoMotores]
+Class="Function"
+Prototype="int MOT_EstadoMotores(stMotores Modo);"
+
+[MOT_PosicionActual]
+Class="Function"
+Prototype="int MOT_PosicionActual(long *iRotacional, long *iLineal);"
+
+[MOT_SentidoGiroABB]
+Class="Function"
+Prototype="int MOT_SentidoGiroABB(stMotores Modo);"
+
+[MOT_VelocidadABB]
+Class="Function"
+Prototype="int MOT_VelocidadABB(double dVelocidadComando);"
+
+[MOT_MotorABB]
+Class="Function"
+Prototype="int MOT_MotorABB(stMotores Modo);"
+
+[MOT_PosicionMotores]
+Class="Function"
+Prototype="int MOT_PosicionMotores(stMotores Modo);"
+

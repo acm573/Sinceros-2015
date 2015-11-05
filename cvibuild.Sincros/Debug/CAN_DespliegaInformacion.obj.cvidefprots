@@ -1,0 +1,16 @@
+[CAN_InfoControl]
+Class="Function"
+Prototype="int CAN_InfoControl(int iPanel, int iControl);"
+
+[CAN_DibujarMarca]
+Class="Function"
+Prototype="int CAN_DibujarMarca(int x, int y, int color);"
+
+[CAN_DibujarMarcaRecorrido]
+Class="Function"
+Prototype="int CAN_DibujarMarcaRecorrido(int x, int y, int color);"
+
+[CAN_DibujarEtiqueta]
+Class="Function"
+Prototype="int CAN_DibujarEtiqueta(int x, int y, char *pcCadena, int color);"
+

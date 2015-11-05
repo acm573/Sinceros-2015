@@ -1,0 +1,8 @@
+[PRE_PanelCatTransmisiones]
+Class="Function"
+Prototype="int PRE_PanelCatTransmisiones(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_SeleccionCatTransmisiones]
+Class="Function"
+Prototype="int PRE_SeleccionCatTransmisiones(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

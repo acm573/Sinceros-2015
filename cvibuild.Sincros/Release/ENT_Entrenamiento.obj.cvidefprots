@@ -1,0 +1,92 @@
+[ENT_PosicionCero]
+Class="Function"
+Prototype="int ENT_PosicionCero(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_Finalizado]
+Class="Function"
+Prototype="int ENT_Finalizado(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_NuevoPunto]
+Class="Function"
+Prototype="int ENT_NuevoPunto(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_DetenerPrueba]
+Class="Function"
+Prototype="int ENT_DetenerPrueba(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_RecorridoConfirmado]
+Class="Function"
+Prototype="int ENT_RecorridoConfirmado(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_AvanzarSiguientePaso]
+Class="Function"
+Prototype="int ENT_AvanzarSiguientePaso(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_ModalidadPasoAPaso]
+Class="Function"
+Prototype="int ENT_ModalidadPasoAPaso(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_AceptarPosicionTest]
+Class="Function"
+Prototype="int ENT_AceptarPosicionTest(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_SetearPosicion]
+Class="Function"
+Prototype="int ENT_SetearPosicion(stNumeroBit noBit, stEstadoBit estado);"
+
+[ENT_AccionesIniciarEntrenamiento]
+Class="Function"
+Prototype="int ENT_AccionesIniciarEntrenamiento(int (*funcionPaso)(void));"
+
+[ENT_AccionesSegundoPasoEntrenamiento]
+Class="Function"
+Prototype="int ENT_AccionesSegundoPasoEntrenamiento(int (*funcionPaso)(void), int (*funcionPaso2)(void));"
+
+[ENT_ModoPasoAPaso]
+Class="Function"
+Prototype="int ENT_ModoPasoAPaso(int (*funcionPaso)(void), int (*funcionPaso2)(int));"
+
+[ENT_SiguientePaso]
+Class="Function"
+Prototype="int ENT_SiguientePaso(int (*funcionPaso)(void));"
+
+[ENT_ConfirmaInicioRecorridoPrueba]
+Class="Function"
+Prototype="int ENT_ConfirmaInicioRecorridoPrueba(int (*funcionPaso)(void), int (*funcionPaso2)(void));"
+
+[ENT_AceptarPosicionTest01]
+Class="Function"
+Prototype="int ENT_AceptarPosicionTest01(int (*funcionPaso)(void), int (*funcionPaso2)(void));"
+
+[ENT_AccionesDetenerEntrenamiento]
+Class="Function"
+Prototype="int ENT_AccionesDetenerEntrenamiento();"
+
+[ENT_CalculaDesplazamientoPrueba]
+Class="Function"
+Prototype="int ENT_CalculaDesplazamientoPrueba();"
+
+[ENT_AsignaEstadoEntrenamiento]
+Class="Function"
+Prototype="int ENT_AsignaEstadoEntrenamiento(stEdoEntrenamiento Tipo);"
+
+[ENT_EstadoEntrenamiento]
+Class="Function"
+Prototype="stEdoEntrenamiento ENT_EstadoEntrenamiento();"
+
+[ENT_LeerDesplazamientoPrueba]
+Class="Function"
+Prototype="char *ENT_LeerDesplazamientoPrueba();"
+
+[ENT_LimpiarDesplazamientoPrueba]
+Class="Function"
+Prototype="int ENT_LimpiarDesplazamientoPrueba();"
+
+[ENT_NeutralActual]
+Class="Function"
+Prototype="char *ENT_NeutralActual();"
+
+[ENT_TorqueMotores]
+Class="Function"
+Prototype="int ENT_TorqueMotores(double dRotacional, double dLineal);"
+

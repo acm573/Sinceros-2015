@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[PRE_Principal]
+Class="Function"
+Prototype="int PRE_Principal(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_MostrarMenu]
+Class="Function"
+Prototype="int PRE_MostrarMenu(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_FinalizarAplicacion]
+Class="Function"
+Prototype="int PRE_FinalizarAplicacion();"
+

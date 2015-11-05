@@ -1,0 +1,32 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[PRE_Principal]
+Class="Function"
+Prototype="int PRE_Principal(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_MostrarMenu]
+Class="Function"
+Prototype="int PRE_MostrarMenu(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[PRE_FinalizarAplicacion]
+Class="Function"
+Prototype="int PRE_FinalizarAplicacion();"
+
+[crearArchivo]
+Class="Function"
+Prototype="int crearArchivo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[guardarDatos2]
+Class="Function"
+Prototype="long guardarDatos2(void *taskHandle, long everyNsamplesEventType, unsigned long nSamples, void *callbackData);"
+
+[iniciarAdquisicion]
+Class="Function"
+Prototype="int iniciarAdquisicion(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[detener]
+Class="Function"
+Prototype="int detener(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

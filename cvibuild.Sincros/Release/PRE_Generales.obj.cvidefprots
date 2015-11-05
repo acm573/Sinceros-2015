@@ -1,0 +1,12 @@
+[PRE_ResaltarOpcion]
+Class="Function"
+Prototype="int PRE_ResaltarOpcion(int iPanel, int iControl, int iFondo, int iCantidad, ...);"
+
+[PRE_Desmarcar]
+Class="Function"
+Prototype="int PRE_Desmarcar(int iControl);"
+
+[PRE_OcultarPanel]
+Class="Function"
+Prototype="int PRE_OcultarPanel(int iPanel);"
+

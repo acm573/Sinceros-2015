@@ -1,0 +1,480 @@
+[Workspace Header]
+Version = 1302
+Pathname = "/c/Acm/Tremec-Sep-15/Sincros_2013/Sincros.cws"
+CVI Dir = "/c/program files/national instruments/cvi2013"
+CVI Shared Dir = "/C/Program Files/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2013"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "Sincros.prj"
+Project 0001 Folder Librerias Collapsed = True
+Project 0001 FolderId 2 Collapsed = True
+Drag Bar Left = 242
+Window Top = 111
+Window Left = -9
+Window Bottom = 1012
+Window Right = 1613
+Maximized = False
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 4
+Window Confinement Region Enabled = True
+MainColumnWidth = 225
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1302
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/Program Files/National Instruments/CVI2013/toolslib/toolbox/toolbox.fp"
+File Type = "Function Panel"
+Disk Date = 3486520800
+In Projects = "1,"
+
+[File 0002]
+Path = "/c/program files/national instruments/cvi2013/toolslib/toolbox/asynctmr.fp"
+File Type = "Function Panel"
+Disk Date = 3486520800
+In Projects = "1,"
+
+[File 0003]
+Path = "/c/program files/national instruments/cvi2013/toolslib/toolbox/regexpr.fp"
+File Type = "Function Panel"
+Disk Date = 3486520800
+In Projects = "1,"
+
+[File 0004]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosEntrenamiento.c"
+File Type = "CSource"
+Disk Date = 3525868854
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Window Z-Order = 4
+Source Window State = "1,1060,1060,1060,20,35,35,0,0,80,0,828,0,2,0,25,48,0,58,18,349,683,1,12,"
+Line Tags = "636,1004,1076,1107,1207,"
+
+[File 0005]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento/ENT_Entrenamiento.c"
+File Type = "CSource"
+Disk Date = 3461844234
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Source Window State = "1,168,168,168,4,37,37,0,3,0,0,1,0,1,0,0,153,0,168,4,323,683,1,12,"
+Line Tags = "137,"
+
+[File 0006]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/PAT_Movimientos.c"
+File Type = "CSource"
+Disk Date = 3529415609
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Z-Order = 2
+Source Window State = "1,40,40,40,0,29,29,0,0,80,0,15,0,15,0,25,0,0,41,0,349,683,1,19,"
+
+[File 0007]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Principal.c"
+File Type = "CSource"
+Disk Date = 3529415426
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Window Z-Order = 3
+Source Window State = "1,0,11,11,0,81,81,0,3,80,0,140,0,15,0,25,0,0,0,0,349,683,1,17,"
+
+[File 0008]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Principal.uir"
+File Type = "User Interface Resource"
+Disk Date = 3529576304
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Window Height = 349
+Window Width = 683
+Window Z-Order = 1
+
+[File 0009]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_AjustesControles.c"
+File Type = "CSource"
+Disk Date = 3517225932
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,20,30,20,0,0,0,0,3,0,0,57,0,14,0,0,0,0,30,0,349,683,1,0,"
+
+[File 0010]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosCatTransmisiones.c"
+File Type = "CSource"
+Disk Date = 3449235096
+In Projects = "1,"
+Window Top = 302
+Window Left = 154
+Source Window State = "1,43,43,43,12,36,12,0,0,0,0,0,0,1,0,0,2,0,12,18,349,683,1,10,"
+
+[File 0011]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosMenuPrincipal.c"
+File Type = "CSource"
+Disk Date = 3449482526
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,43,44,43,16,57,16,0,0,0,0,51,0,51,0,0,1,0,42,31,349,683,1,0,"
+
+[File 0012]
+Path Line0001 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosPantallaPrincipal."
+Path Line0002 = "c"
+File Type = "CSource"
+Disk Date = 3449743092
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,31,31,31,4,23,23,0,3,0,0,2,0,29,0,0,0,0,31,4,349,683,1,10,"
+
+[File 0013]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Generales.c"
+File Type = "CSource"
+Disk Date = 3449235168
+In Projects = "1,"
+Window Top = 392
+Window Left = 202
+Source Window State = "1,50,50,50,4,17,17,0,3,0,0,1,0,2,0,0,0,0,50,4,349,683,1,10,"
+
+[File 0014]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Inicializar.c"
+File Type = "CSource"
+Disk Date = 3462451656
+In Projects = "1,"
+Window Top = 452
+Window Left = 234
+Source Window State = "1,14,14,14,4,26,26,0,0,0,0,1,0,1,0,0,18,0,50,12,349,683,1,0,"
+
+[File 0015]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_MensajeControles.c"
+File Type = "CSource"
+Disk Date = 3449232012
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,135,135,168,17,32,130,0,0,0,0,0,0,1,0,0,0,0,82,50,349,683,1,10,"
+
+[File 0016]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_PantallaPrincipal.c"
+File Type = "CSource"
+Disk Date = 3462446898
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,135,135,135,4,26,26,0,0,0,0,6,0,1,0,0,102,0,10,24,349,683,1,10,"
+
+[File 0017]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Tipos.h"
+File Type = "Include"
+Disk Date = 3462451108
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,116,116,116,1,11,11,0,0,0,0,0,0,0,0,0,75,0,115,0,349,683,1,0,"
+
+[File 0018]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Variables.h"
+File Type = "Include"
+Disk Date = 3525178316
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,49,49,49,4,21,4,0,3,0,0,0,0,0,0,0,0,0,49,21,349,683,1,10,"
+
+[File 0019]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/GRA_Generales/CAN_DespliegaInformacion.c"
+File Type = "CSource"
+Disk Date = 3449750230
+In Projects = "1,"
+Window Top = 302
+Window Left = 154
+Source Window State = "1,131,143,131,0,0,0,0,0,0,0,0,0,0,0,0,105,0,126,43,349,683,1,0,"
+
+[File 0020]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/COM_Comunicacion/COM_Comunicacion.c"
+File Type = "CSource"
+Disk Date = 3449684152
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,133,133,133,4,25,25,0,0,0,0,0,0,0,0,0,311,0,138,23,206,587,1,0,"
+
+[File 0021]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/COM_Comunicacion/COM_Comunicacion.h"
+File Type = "Include"
+Disk Date = 3443813068
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,323,587,1,0,"
+
+[File 0022]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/DIG_Digitales/DIG_Digitales.c"
+File Type = "CSource"
+Disk Date = 3462451538
+In Projects = "1,"
+Window Top = 212
+Window Left = 106
+Source Window State = "1,32,32,32,0,35,0,0,0,0,0,129,0,0,0,0,123,0,139,0,349,627,1,18,"
+
+[File 0023]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/DIG_Digitales/DIG_Digitales.h"
+File Type = "Include"
+Disk Date = 3448467730
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,683,1,0,"
+
+[File 0024]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/GRA_Generales/GRA_AjusteGrafico.c"
+File Type = "CSource"
+Disk Date = 3462446230
+In Projects = "1,"
+Window Top = 332
+Window Left = 170
+Source Window State = "1,362,462,362,1,4,1,0,0,0,0,0,0,0,0,0,102,0,128,0,349,683,1,0,"
+
+[File 0025]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/GRA_Generales/GRA_Generales.c"
+File Type = "CSource"
+Disk Date = 3449667338
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,256,256,256,0,39,0,0,3,0,0,0,0,0,0,0,189,0,256,39,349,683,1,0,"
+
+[File 0026]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MON_Monitoreo/MON_Monitoreo.c"
+File Type = "CSource"
+Disk Date = 3516707516
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,22,22,22,4,23,23,0,0,0,0,7,0,7,0,0,18,0,43,0,323,683,1,0,"
+
+[File 0027]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MOT_Motores/MOT_Motores.c"
+File Type = "CSource"
+Disk Date = 3511349336
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,81,81,81,4,22,22,0,3,0,0,2,0,2,0,0,0,0,81,4,323,683,1,0,"
+
+[File 0028]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MOV_Movimiento/mov_Movimiento.c"
+File Type = "CSource"
+Disk Date = 3462446358
+In Projects = "1,"
+Window Top = 482
+Window Left = 250
+Source Window State = "1,48,49,49,0,0,0,0,0,0,0,0,0,0,0,0,45,0,23,108,349,683,1,0,"
+
+[File 0029]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/MOV_Movimiento/mov_Movimiento.h"
+File Type = "Include"
+Disk Date = 3449236282
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,64,0,349,683,1,0,"
+
+[File 0030]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/PAT_PatronesMovimiento.c"
+File Type = "CSource"
+Disk Date = 3462446514
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,270,270,270,6,25,25,0,0,0,0,0,0,0,0,0,332,0,350,56,349,683,1,0,"
+
+[File 0031]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/UTL_Utilerias.c"
+File Type = "CSource"
+Disk Date = 3449593590
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,40,40,40,0,76,0,0,0,0,0,0,0,0,0,0,39,0,62,29,349,683,1,0,"
+
+[File 0032]
+Path Line0001 = "/c/Program Files (x86)/National Instruments/NI-Motion/FlexMotion/lib/Microsoft/F"
+Path Line0002 = "lexMS32.lib"
+File Type = "Library"
+Disk Date = 0
+In Projects = "1,"
+
+[File 0033]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/BaseDeDatos/BDS_BaseDeDatos.h"
+File Type = "Include"
+Disk Date = 3449483490
+In Projects = "1,"
+Window Top = 272
+Window Left = 138
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,683,1,0,"
+
+[File 0034]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/BaseDeDatos/BDS_Lectura.c"
+File Type = "CSource"
+Disk Date = 3449484188
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,6,6,6,4,25,25,0,0,0,0,1,0,1,0,0,0,0,16,4,349,683,1,0,"
+
+[File 0035]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento/ENT_CargaInformacion.c"
+File Type = "CSource"
+Disk Date = 3449668670
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,25,25,25,13,33,33,0,0,0,0,0,0,1,0,0,0,0,18,50,349,683,1,12,"
+
+[File 0036]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/Negocio/Entrenamiento/ENT_Funciones.h"
+File Type = "Include"
+Disk Date = 3461844216
+In Projects = "1,"
+Window Top = 242
+Window Left = 122
+Source Window State = "1,27,27,27,68,72,72,0,0,0,0,0,0,0,0,0,0,0,27,71,349,683,1,0,"
+
+[File 0037]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/tdms/TDM_Archivos.c"
+File Type = "CSource"
+Disk Date = 3479380786
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,48,57,48,0,79,0,0,0,0,0,0,0,0,0,0,231,0,250,39,349,683,1,0,"
+
+[File 0038]
+Path = "/c/Acm/Tremec-Sep-15/Sincros_2013/tdms/TDM_Archivos.h"
+File Type = "Include"
+Disk Date = 3479219562
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Tab Order]
+Tab 0001 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_EventosEntrenamiento.c"
+Tab 0002 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PAT_Rutas/PAT_Movimientos.c"
+Tab 0003 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Principal.uir"
+Tab 0004 = "/c/Acm/Tremec-Sep-15/Sincros_2013/PRE_Presentacion/PRE_Principal.c"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

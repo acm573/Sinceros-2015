@@ -1,0 +1,48 @@
+[GRA_XYSubmenu]
+Class="Function"
+Prototype="void GRA_XYSubmenu(int panel, int submenu);"
+
+[GRA_ColorMenuEdo]
+Class="Function"
+Prototype="void GRA_ColorMenuEdo(int panel, int control, int estado);"
+
+[GRA_NoItems]
+Class="Function"
+Prototype="int GRA_NoItems(int panel, int control);"
+
+[GRA_Etiqueta]
+Class="Function"
+Prototype="int GRA_Etiqueta(int panel, int control, char *pcEtiqueta);"
+
+[GRA_Pausa]
+Class="Function"
+Prototype="int GRA_Pausa(double dTiempo);"
+
+[GRA_Items]
+Class="Function"
+Prototype="int GRA_Items(int panel, int control);"
+
+[GRA_Oculta]
+Class="Function"
+Prototype="int GRA_Oculta(int panel, int control, int estado);"
+
+[GRA_Strcat]
+Class="Function"
+Prototype="char *GRA_Strcat(int iNoElementos, ...);"
+
+[GRA_IntStr]
+Class="Function"
+Prototype="char *GRA_IntStr(int iValor);"
+
+[GRA_PanelModal]
+Class="Function"
+Prototype="int GRA_PanelModal(int iPanel);"
+
+[GRA_Dimmed]
+Class="Function"
+Prototype="int GRA_Dimmed(int iControl, int iModo);"
+
+[GRA_Visible]
+Class="Function"
+Prototype="int GRA_Visible(int iControl, int iModo);"
+

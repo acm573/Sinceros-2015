@@ -1,0 +1,36 @@
+[PAT_ObtienePlano]
+Class="Function"
+Prototype="int PAT_ObtienePlano(char *pcVel);"
+
+[PAT_ObtieneNeutral]
+Class="Function"
+Prototype="char *PAT_ObtieneNeutral(int iPlano);"
+
+[PAT_AnalizarPatronCambioFinal]
+Class="Function"
+Prototype="int PAT_AnalizarPatronCambioFinal(char *cPatronCambio);"
+
+[PAT_AnalizarMovimientoLista]
+Class="Function"
+Prototype="char *PAT_AnalizarMovimientoLista(char (*c)[30]);"
+
+[PAT_AnalizarMovimientoLista2]
+Class="Function"
+Prototype="char *PAT_AnalizarMovimientoLista2(char (*c)[30]);"
+
+[PAT_AnalizaMovimiento]
+Class="Function"
+Prototype="char *PAT_AnalizaMovimiento(char *pcPatron, struct ListStructTag *Lista);"
+
+[PAT_Distancia]
+Class="Function"
+Prototype="double PAT_Distancia(Point a, Point b);"
+
+[PAT_PosicionCercaDe]
+Class="Function"
+Prototype="char *PAT_PosicionCercaDe(double dCuentas, struct ListStructTag *Lista, int iPosLineal, int iPosRotacional);"
+
+[PAT_RutaAcercar]
+Class="Function"
+Prototype="char *PAT_RutaAcercar(char *pcPatron, char *pcInicio, struct ListStructTag *Lista);"
+

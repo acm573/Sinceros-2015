@@ -1,0 +1,10 @@
+PRI_Principal.obj
+TDM_Archivos.obj
+cvi.lib
+analysis.lib
+cvitdms.lib
+cvistart.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Resource Module

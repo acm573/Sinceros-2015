@@ -1,0 +1,44 @@
+[GRA_Limpiar]
+Class="Function"
+Prototype="void GRA_Limpiar();"
+
+[GRA_ActualizaEtiqueta]
+Class="Function"
+Prototype="int GRA_ActualizaEtiqueta(int iPosicion, char *pcCadena);"
+
+[GRA_InicializarCanvas]
+Class="Function"
+Prototype="int GRA_InicializarCanvas(int iAlto, int iAncho, int iAltoC, int iAnchoC);"
+
+[GRA_InsertarPunto]
+Class="Function"
+Prototype="char *GRA_InsertarPunto(int x, int y, char *pcEtiqueta);"
+
+[GRA_PintaPunto]
+Class="Function"
+Prototype="void GRA_PintaPunto(Point p, Point a);"
+
+[GRA_CalculaAjuste]
+Class="Function"
+Prototype="void GRA_CalculaAjuste(Point c, Point p, Point *a);"
+
+[GRA_Invertir]
+Class="Function"
+Prototype="void GRA_Invertir(Point *p, int iSentido);"
+
+[GRA_Invertir2]
+Class="Function"
+Prototype="void GRA_Invertir2(Point *p, int iSentido);"
+
+[GRA_Rotar]
+Class="Function"
+Prototype="void GRA_Rotar(Point *p, int iRotar);"
+
+[GRA_Dibujar]
+Class="Function"
+Prototype="struct ListStructTag *GRA_Dibujar();"
+
+[GRA_Etiquetas]
+Class="Function"
+Prototype="struct ListStructTag *GRA_Etiquetas();"
+
